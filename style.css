@@ -1,0 +1,177 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: stretch;
+    padding-left: 10%;
+    padding-right: 10%;
+    
+}
+
+
+.header {
+    background-color:burlywood;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 10px;
+
+
+}
+li a:hover{
+    background-color:peachpuff;
+    color: white;
+    padding: 1em 4em;
+}
+li a:active{
+    background-color:  rgb(207, 194, 179);
+}
+.header-with-links {
+    background-color: gray;
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+
+.headerlogo {
+    color: #F9FAF8;
+    
+    font-size: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 900;
+    flex-shrink: 0;
+    
+
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    
+    padding: 0;
+    list-style: none;
+    
+    
+    
+    justify-content: flex-end;
+    flex-wrap: wrap;
+
+}
+
+li {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style: normal;
+    color: #e5e7eb;
+    padding: 5px;
+    size: 18px;
+}
+
+
+.container0 {
+
+display: flex;
+padding: 0;
+flex-wrap: wrap;
+margin: 0;
+flex-grow: 1;
+
+}
+
+h2 {
+    font-size: 48px;
+    color: burlywood;
+    font-weight: bolder;
+    font-family: Arial, Helvetica, sans-serif;
+
+
+}
+.gallery{
+    padding-left: 1em;
+    float: right;
+    width: 55;
+
+}
+
+.line {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding: 0;
+    margin: 0;
+    align-items: flex-start;
+    flex: 1 1 auto;
+    gap: 0.5px;
+    font-family: 'Courier New', Courier, monospace;
+
+}
+
+.information {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: white;
+    justify-content: center;
+    flex-grow: 1;
+    
+
+}
+
+
+h1 {
+    font-size: 48px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-style:italic;
+    color:#f9faf8;
+    margin: 0px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+p {
+    flex-shrink: 1;
+    margin: 0;
+    margin-top: 3em;
+    text-align: center;
+    color: burlywood;
+    font-family:fantasy;
+    font-size: 20px;
+
+}
+
+.container1 {
+    display: flex;
+    background-color: beige;
+    justify-content: space-evenly;
+    padding: 15px;
+    flex-wrap: wrap;
+    flex: 1;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    
+    
+}
+
+.square {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+ 
+    
+}
+
+.box {
+    background-color: aqua;
+    width: 150px;
+    height: 150px;
+    border-radius: 20px;
+
+}
+
+
+
+.container2 {
+    background-color: burlywood;
+    text-align: center;
+}
